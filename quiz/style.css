@@ -1,0 +1,41 @@
+body{
+	background-color:gray;
+	margin:0;
+	padding:0;
+}
+.contenedor{
+	max-width:380px;
+	margin:45px auto;
+	background-color:withe;
+	padding:40px;
+	box-shadow:0px,0px;
+	border-radius:10px;
+}
+h1{
+	text-align:center;
+	margin-bottom:18px;
+	color:black;
+}
+.1{
+	display:block;
+	margin-bottom:8px;
+	color:red;
+}
+form select,form input,form textarea{
+	width:100%;
+	padding:15px;
+	margin-bottom:15px;
+	border:2px solid;
+	border-radius:5px; 
+	
+}
+form textarea{
+	resize:vertical;
+}
+form input[type="submit"]{
+	background-color:green;
+	color:withe;
+	cursor:pointer;
+}
+
+
